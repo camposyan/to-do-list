@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from 'react'
 import logo from "./assets/Logo.png"
-import { Check, ClipboardText, PlusCircle, Trash } from '@phosphor-icons/react'
+import { ClipboardText, PlusCircle } from '@phosphor-icons/react'
 import { ListItem } from './components/ListItem';
 
 export function App() {
