@@ -44,8 +44,10 @@ export function App() {
                               value={task}
                          />
                          <button
-                              className='bg-[#1E6F9F] text-slate-50 py-3 px-4 rounded-lg font-semibold flex items-center gap-2'
+                              className='bg-[#1E6F9F] text-slate-50 py-3 px-4 rounded-lg font-semibold flex items-center gap-2 outline-0 transition-all ease-in-out duration-75
+                               disabled:cursor-not-allowed disabled:brightness-50'
                               onClick={handleAddNewTask}
+                              disabled={task === ""}
                          >
                               Criar
                               <PlusCircle />
